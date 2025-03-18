@@ -1,0 +1,7 @@
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0);
+    filter: invert(1);
+}
+
