@@ -18,3 +18,7 @@
 .logoMastercard{
     width: 9%; 
 }
+.card-footer{
+    background-color: transparent;
+    border-top: transparent;
+  }
