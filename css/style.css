@@ -1,0 +1,9 @@
+.botonAmazon{
+    background-color: #f69b34;
+    border-radius: 18px;
+    padding: 8px 55px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 65px;
+}
