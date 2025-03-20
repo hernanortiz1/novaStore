@@ -26,7 +26,7 @@
       <section class="container m-3 w-50">
         <h2 class="text-center marca">novaStore</h2>
 
-        <div class="row border border-danger w-75 ">
+        <div class="row border rounded-3 border-dark-subtle shadow-lg w-75">
           <form class="bg-body rounded-3 pb-2">
             <h3>Crea tu cuenta</h3>
             <div class="mb-3">
@@ -62,6 +62,7 @@
                 class="form-control"
                 id="telefono"
                 placeholder="Ej: 3816269166"
+                required
               />
             </div>
             <div class="mb-3">
@@ -71,22 +72,42 @@
                 class="form-control"
                 id="email"
                 placeholder="Ej: juanperez@mail.com"
+                required
               />
             </div>
             <div class="mb-3">
               <label for="contraseña" class="form-label">Contraseña *</label>
-              <input type="password" class="form-control" id="contraseña" />
+              <input
+                type="password"
+                class="form-control"
+                id="contraseña"
+                required
+              />
             </div>
             <div class="mb-3">
               <label for="contraseña" class="form-label"
                 >Repetir contraseña *</label
               >
-              <input type="password" class="form-control" id="contraseña" />
+              <input
+                type="password"
+                class="form-control"
+                id="contraseña"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalTerminos">Terminos y condiciones</a>
             </div>
             <div class="mb-3 form-check">
-              
-              <input type="checkbox" class="form-check-input" id="avisoLegal">
-              <label class="form-check-label" for="avisoLegal">He leido los terminos y condiciones</label>
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="avisoLegal"
+                required
+              />
+              <label class="form-check-label" for="avisoLegal"
+                >He leido los terminos y condiciones</label
+              >
             </div>
 
             <button type="submit" class="btn btn-primary">Crear cuenta</button>
@@ -96,6 +117,30 @@
         </div>
       </section>
     </main>
+  <!-- modal de terminos y condiciones legales -->
+  <section class="modal fade"
+  id="modalTerminos"
+  tabindex="-1"
+  aria-labelledby="modalTerminosLegales"
+      aria-hidden="true">
+
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Terminos y Condiciones</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia temporibus minima voluptatum omnis a! Velit optio ipsam temporibus doloribus rem ratione sit quidem illo assumenda reiciendis, nostrum saepe distinctio, consequuntur dicta voluptates vero? Accusamus dolorum corporis, doloremque blanditiis cupiditate corrupti hic aperiam veritatis asperiores atque, repellat quibusdam sapiente sequi quia beatae tenetur culpa error at? Possimus, accusantium! Dignissimos, dolorem! At cumque quod illum, nam ullam saepe molestias eaque debitis obcaecati ipsum ut accusantium sunt iste doloribus sequi explicabo iure ratione non, soluta dolores voluptatum eos nulla? Sint rem quod quidem id dolor, exercitationem excepturi ad animi in, cupiditate dignissimos nostrum velit cum vitae obcaecati suscipit, pariatur minima? Et expedita quas amet accusantium necessitatibus laudantium, repudiandae, modi hic incidunt accusamus corrupti beatae cupiditate eaque, inventore ipsam! Ullam reiciendis nihil ratione commodi fuga accusamus officiis sit quod expedita nobis consequatur maxime minus minima beatae, necessitatibus odit. Numquam et quam minus! Doloribus accusamus ducimus nemo explicabo facere, dolore alias incidunt necessitatibus voluptatum soluta unde veniam. Ab, perferendis incidunt! Obcaecati exercitationem voluptatibus in nesciunt saepe quas, velit voluptas laboriosam tempora vero enim atque doloremque, veritatis temporibus quasi optio fugit quam recusandae reprehenderit architecto consequatur inventore ipsum nulla? Ea ex voluptatum pariatur provident ullam commodi.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
     <footer></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
