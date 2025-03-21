@@ -1,3 +1,10 @@
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0);
+    filter: invert(1);
+    transform: scale(1.5);
+}
 .logoTarjetas{
     width: 15%;
 }
