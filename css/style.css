@@ -1,0 +1,16 @@
+.logoTarjetas{
+    width: 15%;
+}
+.logoAmericanExpress{
+    width: 8%;
+}
+.logoVisa{
+    width: 9%; 
+}
+.logoMastercard{
+    width: 9%; 
+}
+.card-footer{
+    background-color: transparent;
+    border-top: transparent;
+  }
