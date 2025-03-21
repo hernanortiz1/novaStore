@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 .botonAmazon{
     background-color: #f69b34;
     border-radius: 18px;
@@ -14,3 +16,13 @@
         bottom: 55px;
     font-size: 10px;} 
 }
+
+.categoriasHovIndex {
+    scale: 1;
+    transition: scale 300ms ease-in-out;
+}
+
+.categoriasHovIndex:hover {
+    scale: 1.03;
+}
+
