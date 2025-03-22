@@ -9,3 +9,6 @@
     scale: 1.03;
 }
 
+textarea{
+    resize: none;
+}
