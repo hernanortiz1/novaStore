@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+
+
+.navbarPersonalizado:hover{
+background-color: rgb(83, 81, 81);
+
+}
+
+
 .botonAmazon{
     background-color: #f69b34;
     border-radius: 18px;
