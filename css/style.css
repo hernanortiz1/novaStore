@@ -23,14 +23,6 @@ main {
   bottom: 65px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .botonAmazon {
-    padding: 4px 30px;
-    bottom: 55px;
-    font-size: 10px;
-  }
-}
-
 .categoriasHovIndex {
   scale: 1;
   transition: scale 300ms ease-in-out;
@@ -70,4 +62,12 @@ main {
 }
 .roboto {
   font-family: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .botonAmazon {
+    padding: 4px 30px;
+    bottom: 55px;
+    font-size: 10px;
+  }
 }
