@@ -35,17 +35,22 @@ Para ejecutar el proyecto en tu máquina local:
 
 ## 👥 Autores
 
-- **Juan Manuel Blanco** - [GitHub](https://github.com/juanchiblanco) | [LinkedIn]()  
+- **Juan Manuel Blanco**  
+  [GitHub](https://github.com/juanchiblanco) | [LinkedIn]()  
   *Desarrollador*  
 
-- **Santiago Gonzalez** - [GitHub](https://github.com/santigonzalez603) | [LinkedIn]()  
+- **Santiago Gonzalez**  
+  [GitHub](https://github.com/santigonzalez603)  
   *Desarrollador*  
 
-- **Leonardo Olivera** - [GitHub](https://github.com/Leonardosj2024) | [LinkedIn]()  
+- **Leonardo Olivera**  
+  [GitHub](https://github.com/Leonardosj2024) | [LinkedIn](https://www.linkedin.com/in/juan-manuel-blanco-2b744b207/)  
   *Desarrollador*  
 
-- **Gonzalo Buron** - [GitHub](https://github.com/Ch4no-86) | [LinkedIn]()  
+- **Gonzalo Buron**  
+  [GitHub](https://github.com/Ch4no-86) | [LinkedIn](https://www.linkedin.com/in/gonzalo-buron-481483315/)  
   *Desarrollador*  
 
-- **Hernán Ortiz** - [GitHub](https://github.com/hernanortiz1) | [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-ortiz/)  
+- **Hernán Ortiz**  
+  [GitHub](https://github.com/hernanortiz1) | [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-ortiz/)  
   *Desarrollador*  
