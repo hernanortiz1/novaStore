@@ -9,25 +9,3 @@
     scale: 1.03;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0);
-    filter: invert(1);
-    transform: scale(1.5);
-}
-.logoTarjetas{
-    width: 15%;
-}
-.logoAmericanExpress{
-    width: 8%;
-}
-.logoVisa{
-    width: 9%; 
-}
-.logoMastercard{
-    width: 9%; 
-}
-.card-footer{
-    background-color: transparent;
-    border-top: transparent;
-  }
