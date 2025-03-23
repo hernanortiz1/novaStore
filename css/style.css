@@ -1,24 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0);
-    filter: invert(1);
-    transform: scale(1.5);
+  background-color: rgba(0, 0, 0, 0);
+  filter: invert(1);
+  transform: scale(1.5);
 }
 
-.logoTarjetas{
-    width: 15%;
+.logoTarjetas {
+  width: 15%;
 }
-.logoAmericanExpress{
-    width: 8%;
+.logoAmericanExpress {
+  width: 8%;
 }
-.logoVisa{
-    width: 9%; 
+.logoVisa {
+  width: 9%;
 }
-.logoMastercard{
-    width: 9%; 
+.logoMastercard {
+  width: 9%;
 }
-.card-footer{
-    background-color: transparent;
-    border-top: transparent;
+.card-footer {
+  background-color: transparent;
+  border-top: transparent;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+
+.navbarPersonalizado:hover {
+  background-color: rgb(83, 81, 81);
+}
+
+.botonAmazon {
+  background-color: #f69b34;
+  border-radius: 18px;
+  padding: 8px 55px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  bottom: 65px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .botonAmazon {
+    padding: 4px 30px;
+    bottom: 55px;
+    font-size: 10px;
   }
+}
+
+.categoriasHovIndex {
+  scale: 1;
+  transition: scale 300ms ease-in-out;
+}
+
+.categoriasHovIndex:hover {
+  scale: 1.03;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0);
+  filter: invert(1);
+  transform: scale(1.5);
+}
+.logoTarjetas {
+  width: 15%;
+}
+.logoAmericanExpress {
+  width: 8%;
+}
+.logoVisa {
+  width: 9%;
+}
+.logoMastercard {
+  width: 9%;
+}
+.card-footer {
+  background-color: transparent;
+  border-top: transparent;
+}
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+.bebasneue {
+  font-family: "Bebas Neue", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
