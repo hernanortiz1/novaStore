@@ -9,3 +9,17 @@
     scale: 1.03;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.imgCarrito{
+    width: 250px;
+    height: 250px;
+}
