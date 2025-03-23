@@ -33,7 +33,6 @@ Para ejecutar el proyecto en tu máquina local:
 
 1. Abrir el `index.html` de la carpeta creada
 
-
 ## 👥 Autores
 
 - **Juan Manuel Blanco** - [GitHub](https://github.com/juanchiblanco) | [LinkedIn]()  
@@ -50,6 +49,3 @@ Para ejecutar el proyecto en tu máquina local:
 
 - **Hernán Ortiz** - [GitHub](https://github.com/hernanortiz1) | [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-ortiz/)  
   *Desarrollador*  
-
-
-
