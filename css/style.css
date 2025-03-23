@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+.botonAmazon{
+    background-color: #f69b34;
+    border-radius: 18px;
+    padding: 8px 55px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 65px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .botonAmazon{
+        padding: 4px 30px;
+        bottom: 55px;
+    font-size: 10px;} 
+}
+
 .categoriasHovIndex {
     scale: 1;
     transition: scale 300ms ease-in-out;
