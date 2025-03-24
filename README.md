@@ -44,7 +44,7 @@ Para ejecutar el proyecto en tu máquina local:
   *Desarrollador*  
 
 - **Leonardo Olivera**  
-  [GitHub](https://github.com/Leonardosj2024) | [LinkedIn](https://www.linkedin.com/in/juan-manuel-blanco-2b744b207/)  
+  [GitHub](https://github.com/Leonardosj2024)  
   *Desarrollador*  
 
 - **Gonzalo Buron**  
