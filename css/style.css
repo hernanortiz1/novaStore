@@ -19,7 +19,6 @@ main{
     flex-grow: 1;
 }
 
-.imgCarrito{
-    width: 250px;
-    height: 250px;
+.marca{
+    font-family: "Orbitron";
 }
