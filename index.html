@@ -641,9 +641,12 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body row">
             <!-- modal body -->
-            <form>
+             <div class="col-6 img-fluid">
+              <img src="./img/images.png" alt="NovaStore">
+             </div>
+            <form class="col-6">
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input
@@ -664,26 +667,28 @@
                   maxlength="30"
                 />
               </div>
-
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-
-                <button type="button" class="btn btn-primary">
+              <div class="row justify-content-center">
+            <a
+            class="link-dark link-underline-opacity-0 text-center col-12"
+            href="./pages/error404.html"
+            target="_blank"
+            >¿Has olvidado tu contraseña?</a
+          >
+                <a href="./pages/error404.html" class="btn btn-primary text-light mt-3">
+                <i class="bi bi-facebook me-1"></i>Iniciar sesión con Facebook
+              </a>
+              </div>
+              <div class="modal-footer mt-4 row">
+                <button type="submit" class="btn btn-primary col-12">Ingresar</button>
                   <a
-                    class="link-light link-underline-opacity-0"
-                    href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
+                    class="link-light link-underline-opacity-0 btn btn-success"
+                    href="./pages/crearCuenta.html"
                     target="_blank"
                     >Crear cuenta</a
                   >
                 </button>
               </div>
             </form>
-            <a
-              class="d-flex justify-content-center link-dark link-underline-opacity-0"
-              href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
-              target="_blank"
-              >¿Has olvidado tu contraseña?</a
-            >
           </div>
         </div>
       </div>
