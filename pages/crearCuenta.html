@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Proyecto fin de modulo 1" />
+    <meta
+      name="author"
+      content="Juan Manuel Blanco, Leonardo Martin Olivera, Santiago González, Gonzalo Agustín Buron, Hernan Ortiz"
+    />
+    <meta
+      name="keywords"
+      content="Smartphone, tablets, notebooks, tecnología, tienda online, venta de tecnología"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Registro NovaStore</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="bg-body-secondary p-2">
+      <!-- agregar el estilo del titulo... dejo la class "marca" para optimizar tiempos -->
+      <h2 class="orbitron text-center mb-4">NovaStore</h2>
+      <section
+        class="container d-flex justify-content-center align-items-center mb-3"
+      >
+        <div class="row justify-content-center w-50">
+          <form class="col-12 col-md-12 col-lg-12 rounded-4 bg-body p-2">
+            <h3>Crea tu cuenta</h3>
+            <div class="mb-3">
+              <label for="nombre y apellido" class="form-label"
+                >Nombre y Apellido *</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="nombre y apellido"
+                required
+                minlength="3"
+                maxlength="50"
+                placeholder="Ej: Diego Maradona"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="usuario" class="form-label">Usuario *</label>
+              <input
+                type="text"
+                class="form-control"
+                id="usuario"
+                placeholder="Ej: Diego-10-marado"
+                minlength="2"
+                maxlength="40"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email *</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Ej: diegomaradona@mail.com"
+                required
+                minlength="8"
+                maxlength="30"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono *</label>
+              <input
+                type="text"
+                class="form-control"
+                id="telefono"
+                placeholder="Ej: 3816262525"
+                required
+                minlength="8"
+                maxlength="12"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="domicilio" class="form-label">Domicilio *</label>
+              <input
+                type="text"
+                class="form-control"
+                id="domicilio"
+                placeholder="Ej: General Paz 576 "
+                required
+                minlength="8"
+                maxlength="30"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="postal" class="form-label">Código Postal *</label>
+              <input
+                type="text"
+                class="form-control"
+                id="postal"
+                placeholder="Ej: 4107"
+                required
+                minlength="4"
+                maxlength="5"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contraseña" class="form-label">Contraseña *</label>
+              <input
+                type="password"
+                class="form-control"
+                id="contraseña"
+                required
+                minlength="8"
+                maxlength="50"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contraseña" class="form-label"
+                >Repetir contraseña *</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="contraseña"
+                required
+                minlength="8"
+                maxlength="50"
+              />
+            </div>
+            <div class="mb-3">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalTerminos"
+                >Términos y condiciones</a
+              >
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="avisoLegal"
+                required
+              />
+              <label class="form-check-label" for="avisoLegal"
+                >Acepto los términos y condiciones</label
+              >
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="submit">Crear Cuenta</button>
+              <a href="../index.html" class="btn btn-primary" type="button">Volver al inicio</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- modal de terminos y condiciones legales -->
+    <section
+      class="modal fade"
+      id="modalTerminos"
+      tabindex="-1"
+      aria-labelledby="modalTerminosLegales"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Terminos y Condiciones de NovaStore</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Bienvenido a NovaStore. Al acceder y utilizar nuestro sitio web,
+              aceptas cumplir con los siguientes términos y condiciones. Si no
+              estás de acuerdo con alguno de estos términos, te recomendamos que
+              no utilices nuestro sitio.
+            </p>
+            <ol>
+              <li>
+                Aceptación de los Términos: Al utilizar NovaStore, aceptas estos
+                términos de uso y nuestra política de privacidad. Nos reservamos
+                el derecho de modificar estos términos en cualquier momento. Es
+                tu responsabilidad revisar periódicamente los cambios.
+              </li>
+
+              <li>
+                Uso del Sitio NovaStore se destina a usuarios mayores de 18
+                años. Al utilizar nuestro sitio, garantizas que tienes la edad
+                legal para realizar compras y que proporcionarás información
+                veraz y precisa.
+              </li>
+
+              <li>
+                Productos y Precios Nos esforzamos por ofrecer información
+                precisa sobre nuestros productos. Sin embargo, no garantizamos
+                que las descripciones de productos o precios sean exactas,
+                completas o libres de errores. Nos reservamos el derecho de
+                corregir errores y modificar precios sin previo aviso.
+              </li>
+
+              <li>
+                Pedidos y Pagos Al realizar un pedido en NovaStore, aceptas
+                pagar el precio indicado en el momento de la compra. Todos los
+                pagos se procesan a través de métodos seguros. Nos reservamos el
+                derecho de cancelar un pedido si la información de pago es
+                incorrecta.
+              </li>
+              <li>
+                Envíos y Devoluciones Los plazos de envío se indican en el
+                momento de la compra. Las políticas de devolución son
+                específicas para cada producto y se detallan en nuestra página
+                de devoluciones.
+              </li>
+              <li>
+                Propiedad Intelectual Todo el contenido de NovaStore, incluidos
+                textos, imágenes, gráficos y logotipos, es propiedad de
+                NovaStore o de sus licenciantes y está protegido por leyes de
+                propiedad intelectual. No se permite la reproducción o
+                distribución sin nuestro consentimiento previo.
+              </li>
+              <li>
+                Limitación de Responsabilidad NovaStore no será responsable de
+                ningún daño directo, indirecto, incidental o consecuente que
+                surja del uso del sitio o de la imposibilidad de uso. Esto
+                incluye, pero no se limita a, daños por pérdida de beneficios,
+                datos o uso.
+              </li>
+              <li>
+                Ley Aplicable Estos términos se rigen por las leyes de [tu país
+                o región]. Cualquier disputa relacionada con estos términos se
+                resolverá en los tribunales de [tu jurisdicción].
+              </li>
+              <li>
+                Contacto Si tienes alguna pregunta sobre estos términos, puedes
+                contactarnos a través de [correo electrónico o número de
+                contacto].
+              </li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
