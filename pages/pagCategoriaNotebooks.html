@@ -32,7 +32,7 @@
           <a
             class="navbar-brand fs-2 ms-3"
             style="font-family: Orbitron"
-            href="#"
+            href="../index.html"
             >NovaStore</a
           >
           <button
@@ -112,7 +112,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link pe-4" href="#redireccionar"
+                <a class="nav-link pe-4" href="./acercaDeNosotros.html"
                   >Acerca de nosotros</a
                 >
               </li>
@@ -199,7 +199,7 @@
               </div>
               <div class="card-footer">
                 <a
-                  href="./productoNotebookLegionSlim7"
+                  href="./productonotebook1.html"
                   class="btn btn-primary w-100"
                   >Ver más</a
                 >
@@ -238,7 +238,7 @@
                 </div>
               </div>
               <div class="card-footer">
-                <a href="../pages/error404.html" class="btn btn-primary w-100"
+                <a href="../pages/productoNotebookLegionSlim7.html" class="btn btn-primary w-100"
                   >Ver más</a
                 >
               </div>
@@ -413,6 +413,72 @@
         </nav>
       </section>
     </main>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="BotonIngresar"
+      tabindex="-1"
+      aria-labelledby="BotonIngresar"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="#BotonIngresar">Ingresa tu cuenta</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- modal body -->
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  maxlength="30"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                  maxlength="30"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+
+                <button type="button" class="btn btn-primary">
+                  <a
+                    class="link-light link-underline-opacity-0"
+                    href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
+                    target="_blank"
+                    >Crear cuenta</a
+                  >
+                </button>
+              </div>
+            </form>
+            <a
+              class="d-flex justify-content-center link-dark link-underline-opacity-0"
+              href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
+              target="_blank"
+              >¿Has olvidado tu contraseña?</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="bg-dark py-3">
       <div class="container">
         <h2 class="text-center text-lg-start text-light mb-4 orbitron">
@@ -508,7 +574,9 @@
             <h4 class="text-light bebasneue">Quiénes Somos</h4>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="link-light link-underline-opacity-0"
+                <a
+                  href="./acercaDeNosotros.html"
+                  class="link-light link-underline-opacity-0"
                   >Acerca de Nosotros</a
                 >
               </li>

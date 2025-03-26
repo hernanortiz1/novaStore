@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Proyecto fin de modulo 1" />
+    <meta
+      name="author"
+      content="Juan Manuel Blanco, Leonardo Martin Olivera, Santiago González, Gonzalo Agustín Buron, Hernan Ortiz"
+    />
+    <meta
+      name="keywords"
+      content="Smartphone, tablets, notebooks, tecnología, tienda online, venta de tecnología"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Acerca de Nosotros</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand fs-2 ms-3"
+            style="font-family: Orbitron"
+            href="../index.html"
+            >NovaStore</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light navbarPersonalizado"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul
+                  class="dropdown-menu bg-dark"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item text-light navbarPersonalizado"
+                      href="./error404.html"
+                      >Tablet</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light navbarPersonalizado"
+                      href="./pagCategoriaNotebooks.html"
+                      >Notebooks</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light navbarPersonalizado"
+                      href="./categoriaCelulares.html"
+                      >Smartphones</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light navbarPersonalizado"
+                      href="./error404.html"
+                      >Smart TV´s</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-light navbarPersonalizado"
+                      href="./error404.html"
+                      >Smartwatches
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link pe-4 active" href="./acercaDeNosotros.html"
+                  >Acerca de nosotros</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex col-12 col-md-4">
+              <input
+                class="form-control me-2"
+                maxlength="15"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-light col-6 col-md-2 border-0"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-outline-light m-1 border-0 fs-2"
+              data-bs-toggle="modal"
+              data-bs-target="#BotonIngresar"
+            >
+              <i class="bi bi-person"></i>
+            </button>
+            <a href="#redireccionar "
+              ><i
+                class="btn btn-outline-light bi bi-cart text-light border-0 border-0 fs-2"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="bg-secondary-subtle">
+      <section class="bg-dark text-light pb-2">
+        <h1 class="text-center marca">Acerca de Nosotros</h1>
+      </section>
+      <section>
+        <img
+          src="../img/bannerAcercaNosotros.png"
+          alt="Equipo de trabajo"
+          class="img-fluid"
+        />
+        <article class="container my-3 bg-light-subtle p-4 shadow rounded mt-5">
+          <h5 class="display-4 text-center bebasneue">
+            Innovación al alcance de tu mano
+          </h5>
+          <p class="text-center roboto">
+            En <b>NovaStore</b> nos apasiona la tecnología y queremos que tengas
+            acceso a lo último dentro del mercado.<br />Nos especializamos en
+            ofrecer productos de alta calidad, con un servicio confiable y una
+            experiencia de compra fácil y segura.
+          </p>
+
+          <div>
+            <article class="accordion accordion-flush" id="accordionFlush">
+              <div class="accordion-item mb-2">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed bg-success text-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Nuestra Misión
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush"
+                >
+                  <div class="accordion-body roboto row justify-content-center">
+                    <figure class="text-center">
+                      <blockquote class="blockquote">
+                        <p class="lead">
+                          Queremos que cada persona encuentre en la tecnología
+                          un aliado para crecer y conectar con el mundo.
+                        </p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        Hernan Ortiz
+                        <cite title="Source Title"
+                          >CEO & Fundador de NovaStore</cite
+                        >
+                      </figcaption>
+                    </figure>
+                    <p>
+                      Nos motiva acercar tecnología que faciliten la
+                      comunicación, el trabajo, el aprendizaje y el
+                      entretenimiento, siempre con un enfoque en la calidad y la
+                      confianza del usuario.
+                    </p>
+                    <img src="../img/misionImg.jpg" alt="Smart TV en la montaña" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-2">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed bg-primary text-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Nuestra Visión
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush"
+                >
+                  <div class="accordion-body roboto row justify-content-center">
+                    <figure class="text-center">
+                      <blockquote class="blockquote">
+                        <p class="lead">
+                          Queremos ser la tienda de referencia para quienes
+                          buscan tecnología de calidad.
+                        </p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer">
+                        Hernan Ortiz
+                        <cite title="Source Title"
+                          >CEO & Fundador de NovaStore</cite
+                        >
+                      </figcaption>
+                    </figure>
+                    <p>
+                      Aspiramos a brindar siempre lo último en innovación, un
+                      servicio que haga la diferencia, crear una experiencia de
+                      compra confiable, cercana y orientada a las necesidades de
+                      cada persona y conectar a nuestros clientes con el futuro
+                      de la tecnología.
+                    </p>
+                    <img src="../img/visionImg.jpg" alt="Smartphone en la montaña" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed bg-warning text-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Nuestros Valores
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush"
+                >
+                  <div class="accordion-body row justify-content-center">
+                    <ul>
+                      <li>
+                        <b class="lead">Innovación</b>: Nos mantenemos siempre a
+                        la vanguardia, buscando las últimas tendencias para
+                        ofrecerte lo mejor en tecnología.
+                      </li>
+                      <li>
+                        <b class="lead">Compromiso</b>: Nos esforzamos por
+                        brindar un servicio transparente, confiable y enfocado
+                        en la satisfacción de nuestros clientes.
+                      </li>
+                      <li>
+                        <b class="lead">Confianza</b>: Creemos en la honestidad
+                        y la cercanía, asegurándonos de que cada compra sea
+                        segura y sin complicaciones.
+                      </li>
+                      <li>
+                        <b class="lead">Calidad</b>: Solo trabajamos con
+                        productos de alto rendimiento y marcas reconocidas,
+                        garantizando tecnología duradera y eficiente.
+                      </li>
+                      <li>
+                        <b class="lead">Pasión por la tecnología</b>: Amamos lo
+                        que hacemos y queremos compartir nuestra pasión con cada
+                        persona que confía en nosotros.
+                      </li>
+                    </ul>
+                    <p class="lead text-center">
+                      Estos valores son la base de todo lo que hacemos, porque
+                      en <b>NovaStore</b> no solo vendemos productos, creamos
+                      experiencias.
+                    </p>
+                    <img src="../img/valuesImg.jpg" alt="Escritorio con smartphone, tablet y notebook" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </article>
+      </section>
+      <section class="container my-5">
+        <h2 class="bebasneue display-6 text-center">Conocé a nuestro equipo</h2>
+        <div class="row justify-content-center row-gap-3">
+          <article class="col-12 col-md-6 col-lg-3 equipoCard">
+            <div class="card shadow h-100">
+              <img
+                src="../img/hernanFoto.jpeg"
+                class="card-img-top equipoFoto col-6"
+                alt="Hernan Ortiz, CEO & Fundador"
+              />
+              <div class="card-main bg-white text-dark h-100 my-2">
+                <h5 class="card-title bebasneue text-center fs-4">
+                  Hernan Ortiz
+                </h5>
+                <p class="text-center lead card-text">CEO & Fundador</p>
+                <p class="roboto mx-3 text-center">
+                  Apasionado por la tecnología y la innovación, Hernan es el
+                  motor detrás de NovaStore. Su visión es crear un espacio donde cualquier persona pueda acceder a lo último en dispositivos con una experiencia de compra excepcional.
+                </p>
+              </div>
+              <div class="card-footer text-center bg-primary">
+                <a href="https://www.linkedin.com/in/hernannicolasortiz/" class="text-decoration-none btn btn-primary text-light w-100"
+                  ><i class="bi bi-linkedin fs-3"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4 equipoCard">
+            <div class="card shadow h-100">
+              <img
+                src="../img/leonardoOliveraFoto.jpg"
+                class="card-img-top equipoFoto col-6"
+                alt="Leonardo Martín Olivera, Experto en Tecnología"
+              />
+              <div class="card-main bg-white text-dark h-100 my-2">
+                <h5 class="card-title bebasneue text-center fs-4">
+                  Leonardo Martín Olivera
+                </h5>
+                <p class="text-center lead card-text">Experto en Tecnología</p>
+                <p class="roboto mx-3 text-center">
+                  Siempre atento a las últimas tendencias, Leonardo se encarga
+                  de seleccionar los mejores productos para nuestro catálogo y posicionar nuestra marca en el mercado. 
+                </p>
+              </div>
+              <div class="card-footer text-center bg-primary">
+                <a href="" class="text-decoration-none btn btn-primary text-light w-100 disabled"
+                  ><i class="bi bi-linkedin fs-3"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 equipoCard">
+            <div class="card shadow h-100">
+              <img
+                src="../img/gonzaloBuronfoto.jpg"
+                class="card-img-top equipoFoto col-6"
+                alt="Gonzalo Burón, Atención al Cliente"
+              />
+              <div class="card-main bg-white text-dark h-100 my-2">
+                <h5 class="card-title bebasneue text-center fs-4">
+                  Gonzalo Burón
+                </h5>
+                <p class="text-center lead card-text">Atención al Cliente</p>
+                <p class="roboto mx-3 text-center">
+                  Para nosotros, cada cliente es único. Gonzalo se asegura de
+                  que cada duda, consulta o problema tenga una solución rápida y
+                  efectiva, brindando una atención cercana y personalizada.
+                </p>
+              </div>
+              <div class="card-footer text-center bg-primary">
+                <a href="https://www.linkedin.com/in/gonzalo-buron-481483315/" class="text-decoration-none btn btn-primary text-light w-100"
+                  ><i class="bi bi-linkedin fs-3"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 equipoCard">
+            <div class="card shadow h-100">
+              <img
+                src="../img/santiagoUrielGonzalezFoto.PNG"
+                class="card-img-top equipoFoto col-6"
+                alt="Santiago Uriel González, Logística y Operaciones"
+              />
+              <div class="card-main bg-white text-dark h-100 my-2">
+                <h5 class="card-title bebasneue text-center fs-4">
+                  Santiago Uriel González
+                </h5>
+                <p class="text-center lead card-text">
+                  Logística y Operaciones
+                </p>
+                <p class="roboto mx-3 text-center">
+                  Desde la gestión de inventarios hasta la entrega de cada
+                  pedido, Santiago garantiza que los productos lleguen a
+                  tiempo y en perfectas condiciones.
+                </p>
+              </div>
+              <div class="card-footer text-center bg-primary">
+                <a href="" class="text-decoration-none btn btn-primary text-light w-100 disabled"
+                  ><i class="bi bi-linkedin fs-3"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 equipoCard">
+            <div class="card shadow h-100">
+              <img
+                src="../img/juanManuelFoto.jpeg"
+                class="card-img-top equipoFoto col-6"
+                alt="Juan Manuel Blanco, Marketing & Redes Sociales"
+              />
+              <div class="card-main bg-white text-dark h-100 my-2">
+                <h5 class="card-title bebasneue text-center fs-4">
+                  Juan Manuel Blanco
+                </h5>
+                <p class="text-center lead card-text">
+                  Marketing & Redes Sociales
+                </p>
+                <p class="roboto mx-3 text-center">
+                  Juan Manuel comparte las últimas novedades, promociones y
+                  tendencias a través de nuestras redes sociales, manteniendo
+                  siempre informada a nuestra comunidad.
+                </p>
+              </div>
+              <div class="card-footer text-center bg-primary">
+                <a href="https://www.linkedin.com/in/juan-manuel-blanco-2b744b207/" class="text-decoration-none btn btn-primary text-light w-100"
+                  ><i class="bi bi-linkedin fs-3"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="BotonIngresar"
+      tabindex="-1"
+      aria-labelledby="BotonIngresar"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="#BotonIngresar">Ingresa tu cuenta</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- modal body -->
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  maxlength="30"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                  maxlength="30"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+
+                <button type="button" class="btn btn-primary">
+                  <a
+                    class="link-light link-underline-opacity-0"
+                    href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
+                    target="_blank"
+                    >Crear cuenta</a
+                  >
+                </button>
+              </div>
+            </form>
+            <a
+              class="d-flex justify-content-center link-dark link-underline-opacity-0"
+              href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
+              target="_blank"
+              >¿Has olvidado tu contraseña?</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark py-3">
+      <div class="container">
+        <h2 class="text-center text-lg-start text-light mb-4 orbitron">
+          NovaStore
+        </h2>
+        <div class="row text-center text-lg-start">
+          <div class="col-12 col-lg-3 col-md-6">
+            <h4 class="text-light bebasneue mb-2">Productos</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./categoriaCelulares.html"
+                  class="link-light link-underline-opacity-0"
+                  >Celulares</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Tablets</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pagCategoriaNotebooks.html"
+                  class="link-light link-underline-opacity-0"
+                  >Notebooks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Smartwatches</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6">
+            <h4 class="text-light bebasneue">Shop</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Ofertas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Experience Store</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Sucursales</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6">
+            <h4 class="text-light bebasneue">Soporte</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./contacto.html"
+                  class="link-light link-underline-opacity-0"
+                  >Contacto</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Chat online</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Comunidad</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6">
+            <h4 class="text-light bebasneue">Quiénes Somos</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./acercaDeNosotros.html"
+                  class="link-light link-underline-opacity-0"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Trabaja con Nosotros</a
+                >
+              </li>
+              <br />
+              <li>
+                <a
+                  href="#"
+                  class="text-center text-light link-light link-underline-opacity-0"
+                  >¡Mantente informando!</a
+                >
+              </li>
+              <div
+                class="d-flex justify-content-center justify-content-lg-start gap-3"
+              >
+                <li>
+                  <a
+                    href="./error404.html"
+                    class="link-light link-underline-opacity-0"
+                    ><i class="text-light bi bi-facebook fs-3"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="./error404.html"
+                    class="link-light link-underline-opacity-0"
+                    ><i class="text-light bi bi-twitter-x fs-3"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="./error404.html"
+                    class="link-light link-underline-opacity-0"
+                    ><i class="text-light bi bi-instagram fs-3"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="./error404.html"
+                    class="link-light link-underline-opacity-0"
+                    ><i class="text-light bi bi-tiktok fs-3"></i
+                  ></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
