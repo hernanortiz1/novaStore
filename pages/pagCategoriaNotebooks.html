@@ -29,10 +29,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a
-            class="navbar-brand fs-2 ms-3"
-            style="font-family: Orbitron"
-            href="../index.html"
+          <a class="navbar-brand fs-2 ms-3 orbitron" href="../index.html"
             >NovaStore</a
           >
           <button
@@ -47,7 +44,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 roboto">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
@@ -56,7 +53,7 @@
 
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle text-light navbarPersonalizado"
+                  class="nav-link dropdown-toggle navbarPersonalizado"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -73,7 +70,7 @@
                     <a
                       class="dropdown-item text-light navbarPersonalizado"
                       href="./error404.html"
-                      >Tablet</a
+                      >Tablets</a
                     >
                   </li>
                   <li>
@@ -94,7 +91,7 @@
                     <a
                       class="dropdown-item text-light navbarPersonalizado"
                       href="./error404.html"
-                      >Smart TV´s</a
+                      >Smart TVs</a
                     >
                   </li>
                   <li>
@@ -126,7 +123,7 @@
                 aria-label="Search"
               />
               <button
-                class="btn btn-outline-light col-6 col-md-2 border-0"
+                class="btn btn-outline-light col-6 col-md-2 border-0 p-2"
                 type="submit"
               >
                 Buscar
@@ -135,16 +132,14 @@
             <!-- Button trigger modal -->
             <button
               type="button"
-              class="btn btn-outline-light m-1 border-0 fs-2"
+              class="btn btn-outline-light border-0 fs-3"
               data-bs-toggle="modal"
               data-bs-target="#BotonIngresar"
             >
               <i class="bi bi-person"></i>
             </button>
-            <a href="#redireccionar "
-              ><i
-                class="btn btn-outline-light bi bi-cart text-light border-0 border-0 fs-2"
-              ></i>
+            <a href="./carritoCompras.html"
+              ><i class="btn btn-outline-light bi bi-cart border-0 fs-3"></i>
             </a>
           </div>
         </div>
@@ -198,9 +193,7 @@
                 </div>
               </div>
               <div class="card-footer">
-                <a
-                  href="./productonotebook1.html"
-                  class="btn btn-primary w-100"
+                <a href="./productonotebook1.html" class="btn btn-primary w-100"
                   >Ver más</a
                 >
               </div>
@@ -238,7 +231,9 @@
                 </div>
               </div>
               <div class="card-footer">
-                <a href="../pages/productoNotebookLegionSlim7.html" class="btn btn-primary w-100"
+                <a
+                  href="../pages/productoNotebookLegionSlim7.html"
+                  class="btn btn-primary w-100"
                   >Ver más</a
                 >
               </div>
@@ -432,9 +427,16 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body row">
             <!-- modal body -->
-            <form>
+            <div class="col-6">
+              <img
+                src="../img/loginImgModal.jpg"
+                alt="NovaStore"
+                class="img-fluid rounded"
+              />
+            </div>
+            <form class="col-6">
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input
@@ -455,35 +457,43 @@
                   maxlength="30"
                 />
               </div>
-
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-
-                <button type="button" class="btn btn-primary">
-                  <a
-                    class="link-light link-underline-opacity-0"
-                    href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
-                    target="_blank"
-                    >Crear cuenta</a
-                  >
+              <div class="row justify-content-center">
+                <a
+                  class="link-dark link-underline-opacity-0 text-center col-12"
+                  href="./error404.html"
+                  target="_blank"
+                  >¿Has olvidado tu contraseña?</a
+                >
+                <a
+                  href="./error404.html"
+                  class="btn btn-primary text-light mt-3"
+                >
+                  <i class="bi bi-facebook me-1"></i>Iniciar sesión con Facebook
+                </a>
+              </div>
+              <div class="modal-footer mt-4 row">
+                <button type="submit" class="btn btn-primary col-12">
+                  Ingresar
                 </button>
+                <a
+                  class="link-light link-underline-opacity-0 btn btn-success"
+                  href="./crearCuenta.html"
+                  target="_blank"
+                  >Crear cuenta</a
+                >
               </div>
             </form>
-            <a
-              class="d-flex justify-content-center link-dark link-underline-opacity-0"
-              href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjb0PCQipKMAxUPrJUCHYwLJNQQPAgI"
-              target="_blank"
-              >¿Has olvidado tu contraseña?</a
-            >
           </div>
         </div>
       </div>
     </div>
     <footer class="bg-dark py-3">
       <div class="container">
-        <h2 class="text-center text-lg-start text-light mb-4 orbitron">
-          NovaStore
-        </h2>
+        <a href="../index.html" class="text-decoration-none">
+          <h2 class="text-center text-lg-start text-light mb-4 orbitron">
+            NovaStore
+          </h2></a
+        >
         <div class="row text-center text-lg-start">
           <div class="col-12 col-lg-3 col-md-6">
             <h4 class="text-light bebasneue mb-2">Productos</h4>
@@ -507,6 +517,13 @@
                   href="./pagCategoriaNotebooks.html"
                   class="link-light link-underline-opacity-0"
                   >Notebooks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-light link-underline-opacity-0"
+                  >Smart TVs</a
                 >
               </li>
               <li>
@@ -596,11 +613,7 @@
               </li>
               <br />
               <li>
-                <a
-                  href="#"
-                  class="text-center text-light link-light link-underline-opacity-0"
-                  >¡Mantente informando!</a
-                >
+                <p class="text-light">¡Mantente informado!</p>
               </li>
               <div
                 class="d-flex justify-content-center justify-content-lg-start gap-3"
